@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+
+# Parcel build directories
+.parcel-cache/
+dist/
+
+# Environment variables
+.env
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 

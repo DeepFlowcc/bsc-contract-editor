@@ -1,0 +1,18 @@
+{
+  "name": "bsc-contract-editor",
+  "version": "1.0.0",
+  "description": "BSC Contract Editor and Deployer",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "author": "",
+  "license": "MIT"
+} 

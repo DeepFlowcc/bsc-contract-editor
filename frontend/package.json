@@ -1,0 +1,19 @@
+{
+  "name": "bsc-contract-editor-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for BSC contract editor and deployer",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "web3": "^1.9.0",
+    "codemirror": "^5.65.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+} 
