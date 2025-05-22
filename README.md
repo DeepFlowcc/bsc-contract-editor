@@ -28,11 +28,13 @@ A web-based platform for writing, compiling, and deploying smart contracts to th
 ## Prerequisites
 
 - Node.js (v14+)
-- npm or yarn
+- npm, yarn, or pnpm
 - MetaMask browser extension
 - BSC account with BNB for gas fees
 
 ## Setup
+
+### Local Development
 
 1. Clone the repository:
    ```
@@ -47,11 +49,27 @@ A web-based platform for writing, compiling, and deploying smart contracts to th
 
    This will install dependencies for the root project, backend, and frontend.
 
+### In a WebContainer or Online Environment
+
+If you're running this project in a WebContainer or any online development environment:
+
+1. Just run the standard commands:
+   ```
+   pnpm install
+   pnpm run dev
+   ```
+
+   The postinstall scripts will automatically set up all required dependencies and example files.
+
 ## Running the Application
 
 1. Start the application:
    ```
    npm start
+   ```
+   or
+   ```
+   pnpm start
    ```
 
    This will start the Express server which serves both the API and the static frontend files.
@@ -64,6 +82,10 @@ A web-based platform for writing, compiling, and deploying smart contracts to th
 3. For development with auto-reload:
    ```
    npm run dev
+   ```
+   or
+   ```
+   pnpm run dev
    ```
 
 ## Usage
@@ -93,6 +115,7 @@ If examples don't load correctly:
 1. Make sure your server is running
 2. Check the browser console for specific errors
 3. The examples should be in the `frontend/examples/` directory
+4. In a WebContainer, examples are automatically generated during installation
 
 ### Compilation Errors
 

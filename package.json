@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
-    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+    "postinstall": "cd backend && pnpm install && cd ../frontend && pnpm install",
+    "install:all": "pnpm install && cd backend && pnpm install && cd ../frontend && pnpm install"
   },
   "dependencies": {
     "express": "^4.18.2"
